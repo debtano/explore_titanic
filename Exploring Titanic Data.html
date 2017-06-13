@@ -12848,6 +12848,17 @@ AAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Findings-on-Passenger-class">Findings on Passenger class<a class="anchor-link" href="#Findings-on-Passenger-class">&#182;</a></h2><p>Distribution of non survived / survived by passenger class</p>
+<p>This dataset shows that passenger of third class represented almost 70% of non survived passengers but only 35 % of survived passengers. In the case of first class passengers the proportion has an inverse result : percentage of survived first class passengers almost duplicate the percentage of non survived.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>OK, now we will review the distribution of age and sex for survived and non survived DSs</p>
 <p>We'll start reviewing Age distribution</p>
 <p>First we'll check if all the records have values or NaN so we can "clean" the dataset
@@ -13402,6 +13413,17 @@ SUVORK5CYII=
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Findings-on-passenger-Age">Findings on passenger Age<a class="anchor-link" href="#Findings-on-passenger-Age">&#182;</a></h2><p>Distribution of non survived / survived by passenger age</p>
+<p>In this analysis we found similar distributions between survived and no survived but with a nice surprise in the data : the number of survived passengers between 0 and 10 years is almost the double of non survived.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -14155,21 +14177,26 @@ EwAGYQLAIEwAGIQJAEOjfQleSPG5zgAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Findings">Findings<a class="anchor-link" href="#Findings">&#182;</a></h1><ol>
-<li>Distribution of non survived / survived by passenger class<ul>
-<li>This dataset shows that passenger of third class represented almost 70% of non survived passengers but only 35 % of survived passengers. In the case of first class passengers the proportion has an inverse result : percentage of survived first class passengers almost duplicate the percentage of non survived.</li>
-</ul>
-</li>
-<li>Distribution of non survived / survived by passenger age<ul>
-<li>In this analysis we found similar distributions between survived and no survived but with a nice surprise in the data : the number of survived passengers between 0 and 10 years is almost the double of non survived.    - </li>
-</ul>
-</li>
-<li>Distribution of non survived / survived by passenger sex<ul>
-<li>In this last point we found the most clear difference between both distributions : 85% of non survived passengers were male , but only 32% of those survived so given point 2 and 3 one could speculate that "woman and kids first" seems to be reflected in these datasets.</li>
-</ul>
-</li>
-</ol>
-<p>It would we important to contrast this information with the total population of the ship to understand male/female proportions as well as initial proportion of first/second/third class passengers to put this results in the correct perspective.</p>
+<h2 id="Findings-on-Passenger-sex">Findings on Passenger sex<a class="anchor-link" href="#Findings-on-Passenger-sex">&#182;</a></h2><p>Distribution of non survived / survived by passenger sex</p>
+<p>In this last point we found the most clear difference between both distributions : 85% of non survived passengers were male , but only 32% of those survived so given point 2 and 3 one could speculate that "woman and kids first" seems to be reflected in these datasets.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>At the beginning of this analysis we said that we wanted to understand if some of the "known myths" about the Titanic tragedy were true or thinks are some way different from what we thought.</p>
+<p>Our first question was about the ratio of survived and non survived passengers given their passenger class (1st/2nd/3rd). One of the statements about the tradegy is related with the disproportion between non survived passengers of 2nd and 3rd class and 1st class passengers. Findings shown that proportion between classes on survived and non survived datasets seems to go with the most popular believe : that it was easier to survive if you were from an accommodated class. But is important to understand , before being assertive, the following limitations :</p>
+
+<pre><code>- We know this dataset is a sample from the population data. It respects the propotion of 1st and 2nd/3rd class passengers from the original population ? 
+- We dont know if the passenger class actually represents a social class. Probably is the normal case, but a passenger classification in a ship trip coudl be taken as a sociological classification ?
+
+</code></pre>
+<p>Our second question was about the composition in terms of age and sex for the surviving and non surviving datasets. Reviewing the findings , the first "easy" and popular conclusion is : woman and kids first !. I really think from the analyzed dataset that we could initially conclude that those rules were followed and the result is that proportion of women survived is greater than men and numbers dramatically change for the non survived dataset.</p>
+<p>Additional research could be conducted to reduce or clarify these conclusions. For example, the conclusions around sex composition in survived and non survived could be contrasted with the composition of women and men in first class vs second third class passengers.</p>
 
 </div>
 </div>
